@@ -29,7 +29,6 @@ public class pertemuan extends Application
     BorderPane pane;
     VBox vbox,vbox2;
     Text text;
-    Line line,line2,line3,line4;
     Calendar cal;
     DateFormat sdf;
     Rectangle persegi;
@@ -38,12 +37,6 @@ public class pertemuan extends Application
     public void start(Stage stage) {
         Calendar cal;
         DateFormat sdf;
-        persegi = new Rectangle();
-        
-        line = new Line();
-        line2 = new Line();
-        line3 = new Line();
-        line4 = new Line();
         
         Kotak = new Button("Kotak");
         Jajar_Genjang = new Button("Jajar Genjang");

@@ -135,25 +135,6 @@ public class pertemuan extends Application
         
         DateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         
-        /*boolean state= true;
-        while(state){
-            if (detik == 59){
-                detik=0;
-                //detik++;
-            }else if (menit == 59){
-                menit=0;
-                //menit++;
-            }else if (jam == 23){
-                jam = 0;
-                //jam++;
-            }else if(Jam_Sekarang.getText() != "Jam Sekarang"){
-                state = false;
-            }
-            detik++;
-            menit++;
-            jam++;
-        }**/
-        
         text.setText(sdf.format(cal.getTime()));
         vbox2 = new VBox(text);
         vbox2.setAlignment(Pos.CENTER);

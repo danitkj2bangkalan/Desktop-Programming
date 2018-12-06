@@ -22,7 +22,6 @@ public class Praktikum8 extends Application
     public static void main(String[] args){
         launch(args);
     }
-    
     Button Left,Right,Bottom,Top;
         
     @Override public void start(Stage primaryStage){

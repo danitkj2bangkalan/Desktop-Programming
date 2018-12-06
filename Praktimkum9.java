@@ -191,7 +191,7 @@ public class Praktimkum9 extends Application
         lineChart.setTitle("Grafik Nilai Semester Ganjil, 2017");
          XYChart.Series series = new XYChart.Series();
         series.setName("Nilai");
-        series.getData().add(new XYChart.Data("Struktur Data", 55));
+        series.getData().add(new XYChart.Data("Struktur Data", 65));
         series.getData().add(new XYChart.Data("Fisika", 90));
         series.getData().add(new XYChart.Data("Statistik", 40));
         series.getData().add(new XYChart.Data("Dasar Pemrograman Web", 70));
